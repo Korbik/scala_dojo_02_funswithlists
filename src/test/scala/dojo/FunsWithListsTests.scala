@@ -58,7 +58,7 @@ class FunsWithListsTests extends FunSuite with ShouldMatchers{
     zipWithKey (labelToUpper, games) should equal (expected)
   }
 
-  /* 2 BONUS POINTS : uncomment test and make it pass
+  /* 2 BONUS POINTS : uncomment test and make it pass  */
 
   test("find first game with rating of 60 using curried function"){
 
@@ -69,6 +69,5 @@ class FunsWithListsTests extends FunSuite with ShouldMatchers{
     firstGameWithRating60in (otherGames) should be (Game("EA", 60))
   }
 
-  */
   
 }

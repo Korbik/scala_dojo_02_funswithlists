@@ -53,4 +53,6 @@ object FunsWithLists {
 
   def zipWithKey = (f: (Game) => String, ls: List[Game]) => for (g <- ls) yield (f(g),g)
 
+  def firstGameWithRating (rating:Int) = (list :List[Game]) => list.find(g => g.rating == rating).get
+
 }
